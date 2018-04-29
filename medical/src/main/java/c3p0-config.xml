@@ -14,8 +14,8 @@
     <named-config name="MySql">
         <property name="driverClass">com.mysql.jdbc.Driver</property>
         <property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/medical?characterEncoding=UTF-8</property>
-        <property name="user">users</property>
-        <property name="password">Lpf07.01.95</property>
+        <property name="user">username</property>
+        <property name="password">password</property>
         <!--当连接池中的连接耗尽的时候c3p0一次同时获取的连接数 -->
         <property name="acquireIncrement">5</property>
         <!--初始化时获取十个连接，取值应在minPoolSize与maxPoolSize之间 -->
